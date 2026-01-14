@@ -1,0 +1,35 @@
+{
+  "name": "solana-privacy-hack-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashChauhan24/solana-privacy-hack-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YashChauhan24/solana-privacy-hack-backend/issues"
+  },
+  "homepage": "https://github.com/YashChauhan24/solana-privacy-hack-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.8",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
